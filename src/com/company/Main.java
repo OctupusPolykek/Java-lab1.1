@@ -25,6 +25,6 @@ public class Main {
             wareHouse.addProduct(new Product(amount, price, year, manufacturer));
         }
 
-        WareHouse.getDearestProduct(wareHouse);
+        wareHouse.getDearestProduct();
     }
 }
