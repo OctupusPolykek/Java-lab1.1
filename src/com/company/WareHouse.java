@@ -14,7 +14,7 @@ public class WareHouse {
     public void getDearestProduct() {
         System.out.println("The most expensive product");
         Product max = Collections.max(this.products, new ProductComparator());
-        max.printInfo();
+        System.out.print(max.toString());
     }
 }
 class ProductComparator implements Comparator<Product> {

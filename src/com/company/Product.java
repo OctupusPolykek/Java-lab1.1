@@ -37,11 +37,14 @@ public class Product {
     public String getManufacturer() {
         return manufacturer;
     }
-    //Methods
-    public void printInfo() {
-        System.out.println("Amount: " + this.getAmount());
-        System.out.println("Price: " + this.getPrice());
-        System.out.println("Year: " + this.getYear());
-        System.out.println("Manufacturer: " + this.getManufacturer());
+
+    @Override
+    public String toString() {
+        return "Product {" + '\n' +
+                " amount = " + amount + ",\n" +
+                " price = " + price + ",\n" +
+                " year = " + year + ",\n" +
+                " manufacturer = " + manufacturer + '\n' +
+                '}';
     }
 }

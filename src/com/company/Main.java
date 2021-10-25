@@ -7,7 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         WareHouse wareHouse = new WareHouse();
 
-        System.out.print("Enter the number of employees: ");
+        System.out.print("Enter the number of products: ");
         int length = scanner.nextInt();
         System.out.println("========");
         for (int i = 0; i < length; i++) {
